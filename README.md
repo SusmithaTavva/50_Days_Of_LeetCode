@@ -1,2 +1,2 @@
 # 50_Days_Of_LeetCode
-easy level problems of leetcode in python
+easy level problems of leetcode
