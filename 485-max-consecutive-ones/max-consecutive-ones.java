@@ -6,7 +6,8 @@ class Solution {
             if(num == 1){
                 currentCount ++;
                 maxCount = Math.max(maxCount, currentCount);
-            }else{
+            }
+            else{
                 currentCount=0;
             }
         }
