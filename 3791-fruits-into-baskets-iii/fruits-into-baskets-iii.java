@@ -3,7 +3,6 @@ class Solution {
         int n = fruits.length;
         int[] segmentTree = new int[4 * n];
 
-        // Build segment tree
         build(0, 0, n - 1, baskets, segmentTree);
 
         int unplaced = 0;
