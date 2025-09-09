@@ -1,6 +1,6 @@
 class Solution {
     public int peopleAwareOfSecret(int n, int delay, int forget) {
-        final int MOD = 1_000_000007;
+        final int MOD = 1_000_000_007;
         if (n == 1) return 1;
         long[] dp = new long[n + 1];
         dp[1] = 1;
